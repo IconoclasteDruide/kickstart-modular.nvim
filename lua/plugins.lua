@@ -32,5 +32,6 @@ require 'kickstart.plugins.treesitter'
 --
 --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
 require 'custom.plugins'
+require 'custom.vim-rml-setup'
 
 -- vim: ts=2 sts=2 sw=2 et
