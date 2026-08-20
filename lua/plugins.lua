@@ -2,8 +2,9 @@
 
 require 'kickstart.plugins.guess-indent'
 require 'kickstart.plugins.gitsigns'
+require 'kickstart.plugins.grug-far'
 require 'kickstart.plugins.which-key'
-require 'kickstart.plugins.tokyonight'
+require 'kickstart.plugins.colorschemes'
 require 'kickstart.plugins.todo-comments'
 require 'kickstart.plugins.mini'
 require 'kickstart.plugins.telescope'
@@ -32,6 +33,6 @@ require 'kickstart.plugins.treesitter'
 --
 --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
 require 'custom.plugins'
-require 'custom.vim-rml-setup'
+require 'custom.vim-rml-config'
 
 -- vim: ts=2 sts=2 sw=2 et

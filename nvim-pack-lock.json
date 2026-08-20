@@ -18,13 +18,29 @@
       "rev": "6f793b2bcd2d35e201c09520f698bb763220908a",
       "src": "https://github.com/j-hui/fidget.nvim"
     },
+    "forest-night.nvim": {
+      "rev": "d4cbe768d5044c06fbb9c0987d0518bac2699aae",
+      "src": "https://github.com/adibhanna/forest-night.nvim"
+    },
+    "friendly-snippets": {
+      "rev": "6cd7280adead7f586db6fccbd15d2cac7e2188b9",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
+    },
     "gitsigns.nvim": {
       "rev": "31d6fb2d618bca1482b9f274751ead5f03461408",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
+    "grug-far.nvim": {
+      "rev": "6e05398cf6cad05b3fb46569db96b1ccfcbbd402",
+      "src": "https://github.com/MagicDuck/grug-far.nvim"
+    },
     "guess-indent.nvim": {
       "rev": "84a4987ff36798c2fc1169cbaff67960aed9776f",
       "src": "https://github.com/NMAC427/guess-indent.nvim"
+    },
+    "kanagawa.nvim": {
+      "rev": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
+      "src": "https://github.com/rebelot/kanagawa.nvim"
     },
     "mason-lspconfig.nvim": {
       "rev": "a4068c3ebd4cb335b25239e5ea35c22ee6007962",
@@ -38,6 +54,10 @@
       "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
       "src": "https://github.com/mason-org/mason.nvim"
     },
+    "melange-nvim": {
+      "rev": "ce42f6b629beeaa00591ba73a77d3eeac4cf28ce",
+      "src": "https://github.com/savq/melange-nvim"
+    },
     "mini.nvim": {
       "rev": "05a80b0340a92136a93ab04346cf97de3f165948",
       "src": "https://github.com/nvim-mini/mini.nvim"
@@ -47,9 +67,25 @@
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim",
       "version": ">=0.0.0"
     },
+    "nordic.nvim": {
+      "rev": "9fb62116b891184049c50ca6ffb0d3bc100a1a6e",
+      "src": "https://github.com/AlexvZyl/nordic.nvim"
+    },
     "nui.nvim": {
       "rev": "de740991c12411b663994b2860f1a4fd0937c130",
       "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim": {
+      "rev": "c7c692a0ad3080710893abbae100171819a3e4be",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "nvim-dap": {
+      "rev": "9e848e09a697ee95302a3ef2dd43fd6eb709e570",
+      "src": "https://github.com/mfussenegger/nvim-dap"
+    },
+    "nvim-dap-python": {
+      "rev": "1808458eba2b18f178f990e01376941a42c7f93b",
+      "src": "https://github.com/mfussenegger/nvim-dap-python"
     },
     "nvim-lspconfig": {
       "rev": "d5b6e3db4c17b0146f63a2fc47e2027a754b2cb1",
@@ -59,6 +95,14 @@
       "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter",
       "version": "'main'"
+    },
+    "onedarkpro.nvim": {
+      "rev": "ef009ae60769935a4eced9b3d545ae6013d3d271",
+      "src": "https://github.com/olimorris/onedarkpro.nvim"
+    },
+    "oxocarbon.nvim": {
+      "rev": "7cc379b96fcbb4e75c5152906e0fccf81ce46590",
+      "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
     },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
@@ -87,6 +131,18 @@
     "tokyonight.nvim": {
       "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
       "src": "https://github.com/folke/tokyonight.nvim"
+    },
+    "treescape.nvim": {
+      "rev": "bf832bf7936feea3fa472e6680d532d39d3c9ff5",
+      "src": "https://github.com/shawilly/treescape.nvim"
+    },
+    "vim-moonfly-colors": {
+      "rev": "261664f92ed51cf0c077555b2d4b2530307eac17",
+      "src": "https://github.com/bluz71/vim-moonfly-colors"
+    },
+    "vim-nightfly-colors": {
+      "rev": "66050453bf40ac7eddc7a84dd15291db85fefc43",
+      "src": "https://github.com/bluz71/vim-nightfly-colors"
     },
     "which-key.nvim": {
       "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",

@@ -11,12 +11,22 @@ vim.pack.add { gh 'folke/tokyonight.nvim' }
 require('tokyonight').setup {
   styles = {
     comments = { italic = false }, -- Disable italics in comments
-  },
+ },
 }
 
+vim.pack.add { gh 'catppuccin/nvim' }
+vim.pack.add { gh 'adibhanna/forest-night.nvim' }
+vim.pack.add { gh 'AlexvZyl/nordic.nvim' }
+vim.pack.add { gh 'savq/melange-nvim' }
+vim.pack.add { gh 'bluz71/vim-nightfly-colors' }
+vim.pack.add { gh 'shawilly/treescape.nvim' }
+vim.pack.add { gh 'olimorris/onedarkpro.nvim' }
+vim.pack.add { gh 'nyoom-engineering/oxocarbon.nvim' }
+vim.pack.add { gh 'bluz71/vim-moonfly-colors' }
+vim.pack.add { gh 'rebelot/kanagawa.nvim' }
 -- Load the colorscheme here.
 -- Like many other themes, this one has different styles, and you could load
 -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-vim.cmd.colorscheme 'tokyonight-night'
+vim.cmd.colorscheme 'kanagawa'
 
 -- vim: ts=2 sts=2 sw=2 et

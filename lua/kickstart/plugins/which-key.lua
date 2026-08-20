@@ -11,6 +11,9 @@ require('which-key').setup {
     { '<leader>s', group = '[S]earch', mode = { 'n', 'v' } },
     { '<leader>t', group = '[T]oggle' },
     { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } }, -- Enable gitsigns recommended keymaps first
+    { '<leader>g', group = '[G]rug-FAR', mode = { 'n', 'v' } },
+    { '<leader>r', group = '[R]ML tasks', mode = { 'n', 'v' } },
+    { '<leader>d', group = '[D]ebug AdptrPrtcl actions', mode = { 'n', 'v' } },
     { 'gr', group = 'LSP Actions', mode = { 'n' } },
   },
 }
