@@ -24,9 +24,32 @@ vim.pack.add { gh 'olimorris/onedarkpro.nvim' }
 vim.pack.add { gh 'nyoom-engineering/oxocarbon.nvim' }
 vim.pack.add { gh 'bluz71/vim-moonfly-colors' }
 vim.pack.add { gh 'rebelot/kanagawa.nvim' }
+vim.pack.add { gh 'kylesnowschwartz/cobalt-neon.nvim' }
 -- Load the colorscheme here.
 -- Like many other themes, this one has different styles, and you could load
 -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-vim.cmd.colorscheme 'kanagawa'
 
+require("cobalt-neon").setup({
+  terminal_colors = true,   -- Set terminal ANSI colors
+  transparent_mode = true, -- Transparent background
+  dim_inactive = false,     -- Dim inactive windows
+  undercurl = true,         -- Use undercurl for diagnostics
+  underline = true,         -- Use underline
+  bold = true,              -- Use bold
+
+  italic = {
+    strings = false,
+    comments = true,
+    keywords = false,
+    functions = false,
+    variables = false,
+  },
+
+  palette_overrides = {
+    -- bg = "#0D1E28",        -- Darker background
+    green = "#00FF00",     -- Different green
+  },
+  overrides = {},           -- Override specific highlight groups
+})
+vim.cmd.colorscheme 'cobalt-neon'
 -- vim: ts=2 sts=2 sw=2 et

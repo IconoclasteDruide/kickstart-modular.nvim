@@ -90,4 +90,7 @@ vim.keymap.set('n', 'go', "<Cmd>call append(line('.'),     repeat([''], v:count1
   { desc = "Add [count] empty lines above." })
 
 
+-- Keep selection when indenting and de-denting in visual mode
+vim.keymap.set("v", "<", "<gv", { desc = "Indent left and reselect" })
+vim.keymap.set("v", ">", ">gv", { desc = "Indent right and reselect" })
 -- vim: ts=2 sts=2 sw=2 et

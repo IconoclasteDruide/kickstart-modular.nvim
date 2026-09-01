@@ -108,4 +108,7 @@ vim.o.undofile = true
 vim.o.backspace = "indent,eol,start"
 
 vim.o.fixeol = false
+
+vim.o.sessionoptions = "curdir,folds,tabpages,winsize,options,resize,winpos"
+
 -- vim: ts=2 sts=2 sw=2 et

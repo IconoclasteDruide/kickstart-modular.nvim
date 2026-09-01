@@ -10,6 +10,10 @@
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
     },
+    "cobalt-neon.nvim": {
+      "rev": "74292f1f4ea6f016d044895d17122840f033f2b9",
+      "src": "https://github.com/kylesnowschwartz/cobalt-neon.nvim"
+    },
     "conform.nvim": {
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
       "src": "https://github.com/stevearc/conform.nvim"
