@@ -24,3 +24,8 @@ vim.keymap.set('n', '<leader>rw', function()
   vim.cmd('!run')
 end, { desc = "[W]rite file and run Python script(s)." })
 
+vim.keymap.set("n", "<leader>rp", function()
+  local path = vim.fn.expand("%:p")
+  vim.fn.setreg("+", path)
+  print("file:", path)
+end, { desc = "Copy full file path" })
